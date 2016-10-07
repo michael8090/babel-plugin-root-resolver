@@ -1,0 +1,24 @@
+{
+  "name": "babel-plugin-root-resolver",
+  "version": "1.0.0",
+  "description": "replace the \"require('/xxx')\"s with \"require('../../xxx')\", the root is resolved with process.cwd(), where normally is the working directory of babel\" ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/michael8090/babel-plugin-root-resolver.git"
+  },
+  "keywords": [
+    "babel",
+    "webpack",
+    "seajs"
+  ],
+  "author": "Huang Yong",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/michael8090/babel-plugin-root-resolver/issues"
+  },
+  "homepage": "https://github.com/michael8090/babel-plugin-root-resolver#readme"
+}
